@@ -1,10 +1,16 @@
-# Getting Started with Create React App
+# Ecommerce Website using
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I created this website using React for frontend and Strapi for backend. Strapi is an open-source Content Management System.
 
-## Available Scripts
+I created a folder and named it Shop.
 
-In the project directory, you can run:
+## React
+
+- To start with our frontend, we are going to create a react project inside the Shop folder.
+- Insider the folder, run the below command in you terminal.
+        `npx create-react-app client`
+- Installed dependencies:
+       - `npm i react-router-dom` : Client side routing allows your app to update the URL from a link click without making another request for another document from the server
 
 ### `npm start`
 
