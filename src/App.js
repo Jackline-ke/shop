@@ -5,6 +5,7 @@ import Navbar from './component/Navbar/Navbar';
 import Categories from './pages/Categories/Categories';
 import Home from './pages/Home/Home';
 import Product from './pages/Product/Product';
+import './App.scss'
 
 const Layout = () => {
   return (

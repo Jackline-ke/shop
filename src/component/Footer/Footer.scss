@@ -1,0 +1,36 @@
+.footer{
+    padding: 100px 100px 20px 100px;
+
+    .top{
+        display: flex;
+        gap: 25px;
+
+        .item{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+
+            span{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .bottom{
+        margin-top: 30px;
+        display: flex;
+        gap: 4px;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            font-size: 16px;
+            color: #0000ff;
+            font-weight: bold;
+        }
+        span{
+            color: #777777;
+            font-size: 12px;
+        }
+    }
+}

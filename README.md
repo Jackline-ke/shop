@@ -11,6 +11,9 @@ I created a folder and named it Shop.
         `npx create-react-app client`
 - Installed dependencies:
        - `npm i react-router-dom` : Client side routing allows your app to update the URL from a link click without making another request for another document from the server
+       - `npm install sass`: we are going to use sass to style our frontend.
+       - `npm install @mui/material @emotion/react @emotion/styled` and ` npm i @mui/icons-material `: for material ui.
+
 
 ### `npm start`
 
