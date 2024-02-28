@@ -1,0 +1,36 @@
+.slider{
+    height: calc(100vh - 80px);
+    width: 100vw;
+    position: relative;
+
+    .container{
+        height: 100%;
+        width: 300vw;
+        transition: all 1s ease;
+
+        img{
+            height: 100%;
+            width: 100vw;
+            object-fit: cover;
+        }
+    }
+    .icons{
+        width: 100px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        bottom: 100px;
+        cursor: pointer;
+
+        .icon{
+            border: 1px solid #777777;
+            height: 30px;
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
