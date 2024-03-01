@@ -1,12 +1,12 @@
 .slider{
-    height: calc(100vh - 80px);
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     position: relative;
-    background-color: red;
-    background-image: linear-gradient(red, yellow);
+    background-color: gray;
+    background-image: linear-gradient(gray, #ededed);
 
     .container{
         padding: 32px;
@@ -16,12 +16,12 @@
         align-items: center;
 
         .left{
-            flex: 1;
+            flex: 3;
         }
 
         .right{
             display: flex;
-            flex: 1;
+            flex: 2;
             height: 60vh;
             width: 50%;
             padding: 20px;
