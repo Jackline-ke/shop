@@ -31,10 +31,10 @@ const Category = () => {
             <div className='row'>
                 <div className='column'>
                     <div className='row'>
-                    <img src='https://images.unsplash.com/photo-1536924430914-91f9e2041b83?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1vZGVsc3xlbnwwfHwwfHx8MA%3D%3D' alt=''/>
-                    <button>
-                        <Link className='link' to='/products/1'>Glasses</Link>
-                    </button>
+                        <img src='https://images.unsplash.com/photo-1536924430914-91f9e2041b83?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1vZGVsc3xlbnwwfHwwfHx8MA%3D%3D' alt=''/>
+                        <button>
+                            <Link className='link' to='/products/1'>Glasses</Link>
+                        </button>
                     </div>
                 </div>
                 <div className='column'>
