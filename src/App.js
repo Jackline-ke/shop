@@ -7,9 +7,10 @@ import Home from './pages/Home/Home';
 import Product from './pages/Product/Product';
 import './App.scss'
 
-const Layout = () => {
+
+const App = () => {
   return (
-    <div className='app'>
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -17,16 +18,6 @@ const Layout = () => {
         <Route path="/product/:id" element={<Product />} />
       </Routes>
       <Footer />
-    </div>
-  );
-};
-
-const App = () => {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Layout />} />
-      </Routes>
     </Router>
   );
 };

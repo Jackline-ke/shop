@@ -3,6 +3,12 @@
     display: flex;
     // margin: 10px;
     gap: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        
+   .link{
+       color: inherit;
+       text-decoration: none;
+    }
 
     .column{
         display: flex;
@@ -31,6 +37,8 @@
             width: fit-content;
             height: 30px;
             padding: 5px;
+            font-size: 12px;
+            font-weight: bold;
             position: absolute;
             top: 0;
             bottom: 0;

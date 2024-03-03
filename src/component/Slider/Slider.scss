@@ -7,6 +7,12 @@
     position: relative;
     background-color: gray;
     background-image: linear-gradient(rgb(182, 182, 182), #ededed);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        
+   .link{
+       color: inherit;
+       text-decoration: none;
+    }
 
     .container{
         padding: 50px;
