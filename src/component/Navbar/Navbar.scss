@@ -2,7 +2,7 @@
    height: 50px;
    
    .wrapper{
-        padding: 10px 32px;
+        padding: 10px 50px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -12,22 +12,9 @@
             align-items: center;
         }
 
-        .left{
-            display: flex;
-            align-items: center;
-            gap: 25px;
-
-            .categories{
-                display: flex;
-                gap: 25px;
-            }
-
-        }
-        
         .center{
             font-size: 20px;
             letter-spacing: 2px;
-            color: #0000ff;
         }
 
         .right{

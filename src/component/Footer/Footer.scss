@@ -1,5 +1,7 @@
 .footer{
-    padding: 100px 100px 20px 100px;
+    padding: 10px 50px;
+    background-color: #777777;
+    color: #fff;
 
     .top{
         display: flex;
@@ -8,10 +10,14 @@
         .item{
             flex: 1;
             display: flex;
+            gap: 5px;
             flex-direction: column;
 
             span{
                 cursor: pointer;
+            }
+            p{
+                font-size: 12px;
             }
         }
     }
@@ -25,11 +31,9 @@
 
         h1{
             font-size: 16px;
-            color: #0000ff;
             font-weight: bold;
         }
         span{
-            color: #777777;
             font-size: 12px;
         }
     }

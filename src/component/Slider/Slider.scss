@@ -6,10 +6,10 @@
     flex-direction: column;
     position: relative;
     background-color: gray;
-    background-image: linear-gradient(gray, #ededed);
+    background-image: linear-gradient(rgb(182, 182, 182), #ededed);
 
     .container{
-        padding: 32px;
+        padding: 50px;
         display: flex;
         gap: 60px;
         justify-content: center;

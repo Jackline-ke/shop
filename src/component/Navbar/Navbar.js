@@ -1,5 +1,5 @@
 import React from 'react';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+//import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
@@ -11,23 +11,6 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='wrapper'>
-        <div className='left'>
-          <div className='item'>
-            <span>Kenya</span>
-            <KeyboardArrowDownIcon/>
-          </div>
-          <div className='categories'>
-            <div className='item'>
-              <Link className="link" to='/products/1'>Woman</Link>
-            </div>
-            <div className='item'>
-              <Link className="link" to='/products/2'>Man</Link>
-            </div>
-            <div className='item'>
-              <Link className="link" to='/products/3'>Shoes</Link>
-            </div>
-          </div>
-        </div>
         <div className='center'>
           <Link className="link" to='/'>Qlynns' Shopping Center</Link>
         </div>
