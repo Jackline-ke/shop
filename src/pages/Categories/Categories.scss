@@ -1,5 +1,44 @@
 .products{
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+    display: flex;
+    padding: 20px 50px;
     
+    .left{
+        flex: 1;
+        position: sticky;
+        height: 100%;
+        top: 50px;
+
+        .filterItem{
+            margin-bottom: 30px;
+
+            h2{
+                font-weight: bold;
+                font-size: 18px;
+            }
+
+            .inputItem{
+                margin-bottom: 10px;
+
+                label{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    .right{
+        flex: 3;
+
+        .catImage{
+            width: 100%;
+            height: 300px;
+            margin-bottom: 50px;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
 }

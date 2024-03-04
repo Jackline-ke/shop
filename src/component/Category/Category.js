@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 const Category = () => {
   return (
     <div className='category'>
+
         <div className='column'>
             <div className='row'>
                 <img src='https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9kZWxzfGVufDB8fDB8fHww' alt=''/>
@@ -19,6 +20,7 @@ const Category = () => {
                 </button>
             </div>
         </div>
+
         <div className='column'>
             <div className='row'>
                 <img src='https://images.unsplash.com/photo-1631233859262-0d7b12ea7d4c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt=''/>
@@ -27,6 +29,7 @@ const Category = () => {
                 </button>
             </div>
         </div>
+
         <div className='column column-large'>
             <div className='row'>
                 <div className='column'>
@@ -39,10 +42,10 @@ const Category = () => {
                 </div>
                 <div className='column'>
                     <div className='row'>
-                    <img src='https://images.unsplash.com/photo-1621441885264-eff8a6a851fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YWNlc3Nvcmllc3xlbnwwfHwwfHx8MA%3D%3D' alt=''/>
-                    <button>
-                        <Link className='link' to='/products/1'>Accesories</Link>
-                    </button>
+                        <img src='https://images.unsplash.com/photo-1621441885264-eff8a6a851fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YWNlc3Nvcmllc3xlbnwwfHwwfHx8MA%3D%3D' alt=''/>
+                        <button>
+                            <Link className='link' to='/products/1'>Accesories</Link>
+                        </button>
                     </div>
                 </div>
             </div>

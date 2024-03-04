@@ -2,6 +2,8 @@
     width: 200px;
     display: flex;
     flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
 
     .image{
         width: 100%;
@@ -51,5 +53,13 @@
                 text-decoration: line-through;
             }
         }
+    }
+    .button{
+        color: white;
+        background-color: #000;
+        font-size: 12px;
+        padding: 5px 20px;
+        cursor: pointer;
+        border: #000;
     }
 }

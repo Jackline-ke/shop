@@ -8,19 +8,8 @@
     }
 
     .top{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
         margin-bottom: 20px;
 
-        h2{
-            flex: 2;
-        }
-        p{
-            flex: 3;
-            color: #777;
-            font-size: 14px;
-        }
     }
     .bottom{
         display: flex;

@@ -1,6 +1,7 @@
 import React from 'react'
+import Card from '../Card/Card'
 import './List.scss'
-import '../Card/Card.js'
+
 
 const List = () => {
 
@@ -42,7 +43,7 @@ const List = () => {
           price: 'Ksh.1000'
         },
         {
-          id: 1,
+          id: 5,
           image1: 'https://i.pinimg.com/236x/72/94/96/729496d8694cef204a83757c19d30ca7.jpg',
           // image2: 'https://i.pinimg.com/236x/e8/91/d0/e891d0afb33878acda4a0e23213064bb.jpg',
           title: 'White T-shirt',
@@ -53,9 +54,9 @@ const List = () => {
     ]
   return (
     <div className='list'>
-        {data?.map(item =>{
-            <Card item={item} key={item.id}/>
-        })}
+        {data?.map(item =>(
+           <Card item={item} key={item.id}/>
+        ))}
     </div>
   )
 }
