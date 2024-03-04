@@ -1,6 +1,8 @@
 .product{
     padding: 20px 50px;
     display: flex;
+    gap: 25px;
+    font-family: 'Times New Roman', Times, serif;
 
     .left{
         flex: 1;
@@ -29,5 +31,66 @@
     }
     .right{
         flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h2{
+            font-weight: bold;
+            font-size: 32px;
+        }
+        .price{
+            font-weight: 500;
+            font-size: 24px;
+        }
+        hr{
+            width: 100%;
+            left: 0;
+            border: 1px solid #eeeeee;
+        }
+        p{
+            color: gray;
+            text-align: justify;
+        }
+        .quantity{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            
+            button{
+                width: 30px;
+                height: 30px;
+                border: none;
+            }
+        }
+       .link{
+            display: flex;
+            justify-content: space-between;
+            .cartButton{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                justify-content: center;
+                width: 250px;
+                height: 40px;
+                border: none;
+                color: #ffffff;
+                font-weight: bold;
+                cursor: pointer;
+                background-color: #000000;
+            }
+            .wish{
+                display: flex;
+                gap: 5px;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+
+                span{
+                    color: #777777;
+                    font-size: 12px;
+                }
+            }
+       }
     }
 }

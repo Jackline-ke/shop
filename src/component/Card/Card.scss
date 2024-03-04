@@ -1,6 +1,7 @@
 .card{
     width: 200px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 50px;

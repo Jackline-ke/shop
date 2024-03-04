@@ -8,7 +8,7 @@ const Category = () => {
 
         <div className='column'>
             <div className='row'>
-                <img src='https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9kZWxzfGVufDB8fDB8fHww' alt=''/>
+                <img src='https://images.unsplash.com/photo-1631233859262-0d7b12ea7d4c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt=''/>
                 <button>
                     <Link className='link' to='/products/1'>Sale</Link>
                 </button>
@@ -23,7 +23,7 @@ const Category = () => {
 
         <div className='column'>
             <div className='row'>
-                <img src='https://images.unsplash.com/photo-1631233859262-0d7b12ea7d4c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt=''/>
+                <img src='https://i.pinimg.com/564x/91/e6/25/91e62507044ef7be0a321a26a35352c2.jpg' alt=''/>
                 <button>
                     <Link className='link' to='/products/1'>Dresses</Link>
                 </button>
