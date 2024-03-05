@@ -2,6 +2,7 @@
     padding: 20px 50px;
     display: flex;
     gap: 25px;
+    margin-bottom: 100px;
     font-family: 'Times New Roman', Times, serif;
 
     .left{
@@ -42,11 +43,6 @@
         .price{
             font-weight: 500;
             font-size: 24px;
-        }
-        hr{
-            width: 100%;
-            left: 0;
-            border: 1px solid #eeeeee;
         }
         p{
             color: gray;

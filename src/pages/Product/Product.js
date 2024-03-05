@@ -19,13 +19,12 @@ const Product = () => {
           <img src={images[1]} alt='' onClick={e=> setSelectedImage(1)}/>
         </div>
         <div className='mainImage'>
-          <img src={images[selectedImage]}/>
+          <img src={images[selectedImage]} alt=''/>
         </div>
       </div>
       <div className='right'>
         <h2>Title</h2>
         <span className='price'>KSH.1000</span>
-        <hr/>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <div className='quantity'>
           <button onClick={() => setQuantity((prev) => prev === 1 ? 1: prev-1)}>-</button>

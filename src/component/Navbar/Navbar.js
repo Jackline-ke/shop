@@ -23,19 +23,28 @@ const Navbar = () => {
               <Link className="link" to='/'>Home</Link>
             </div>
             <div className='item'>
-              <Link className="link" to='/'>About</Link>
+              <Link className="link" to='/'>Casual</Link>
             </div>
             <div className='item'>
-              <Link className="link" to='/'>Contact</Link>
+              <Link className="link" to='/'>Ankara</Link>
+            </div>
+            <div className='item'>
+              <Link className="link" to='/'>Shoes</Link>
+            </div>
+            <div className='item'>
+              <Link className="link" to='/'>Dresses</Link>
+            </div>
+            <div className='item'>
+              <Link className="link" to='/'>Accessories</Link>
             </div>
           </div>
           <div className='icons'>
-            <SearchIcon/>
-            <PersonIcon/>
-            <FavoriteBorderIcon/>
+            <SearchIcon className='icon'/>
+            <PersonIcon className='icon'/>
+            <FavoriteBorderIcon className='icon'/>
             <div className='cartIcon' onClick={() =>setOpen(!open)}>
-              <ShoppingCartIcon/>
-              <span>10</span>
+              <ShoppingCartIcon className='icon'/>
+              <span>1</span>
             </div>
           </div>
         </div>
