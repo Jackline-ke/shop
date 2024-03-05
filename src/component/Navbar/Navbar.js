@@ -53,7 +53,6 @@ const Navbar = () => {
         </div>
         {/* mobile */}
         <div className='mobileMenu'>
-          <input />
           <MenuIcon className='menu'/>
           <CloseIcon className='close'/>
         </div>
