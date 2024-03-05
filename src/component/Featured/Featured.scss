@@ -8,13 +8,36 @@
     }
 
     .top{
-        margin-bottom: 20px;
+
+        margin-bottom: 30px;
 
     }
     .bottom{
+
         display: flex;
         justify-content: center;
         gap: 10px;
         overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .featured{
+        margin: 50px 50px;
+
+        .top{
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .bottom{
+
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            overflow: hidden;
+        }
     }
 }

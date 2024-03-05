@@ -39,3 +39,29 @@
         }
     }
 }
+
+@media screen and (max-width: 600px){
+    .footer{
+        padding: 50px 30px;
+
+        .top{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .bottom{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+
+            h1{
+                font-size: 14px;
+                font-weight: bold;
+            }
+            span{
+                font-size: 12px;
+            }
+        }
+    }
+}

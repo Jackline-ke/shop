@@ -4,6 +4,8 @@ import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 import { Link } from 'react-router-dom';
 import './Navbar.scss'
 import Cart from '../Cart/Cart';
@@ -17,6 +19,7 @@ const Navbar = () => {
         <div className='center'>
           <Link className="link" to='/'>Qlynns' Shopping Center</Link>
         </div>
+        
         <div className='right'>
           <div className='linkPages'>
             <div className='item'>
@@ -47,6 +50,12 @@ const Navbar = () => {
               <span>1</span>
             </div>
           </div>
+        </div>
+        {/* mobile */}
+        <div className='mobileMenu'>
+          <input />
+          <MenuIcon className='menu'/>
+          <CloseIcon className='close'/>
         </div>
       </div>
       {open && <Cart/>}

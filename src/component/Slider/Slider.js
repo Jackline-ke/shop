@@ -12,6 +12,12 @@ const Slider = () => {
   return (
     <div className='slider'>
         <div className='container'>
+             {/* right */}
+             <div className='right'>
+                <div className='rightImage'>
+                    <img src={data[0]} alt="slider"/>
+                </div>
+            </div>
             {/* left */}
             <div className='left'>
                 <h1 className=''>Best Collection</h1>
@@ -20,12 +26,6 @@ const Slider = () => {
                 <button>
                     <Link className='link'>Shop Now</Link>
                 </button>
-            </div>
-            {/* right */}
-            <div className='right'>
-                <div className='rightImage'>
-                    <img src={data[0]} alt="slider"/>
-                </div>
             </div>
         </div>
     </div>

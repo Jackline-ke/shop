@@ -69,6 +69,59 @@
                 }
             }
         }
+        .mobileMenu{
+            display: none;
+        }
     } 
 
+}
+
+@media screen and (max-width: 600px){
+    .navbar {
+        height: 50px;
+
+        .wrapper{
+            padding: 10px 20px;
+            display: hidden;
+            justify-content: space-between;
+            align-items: center;
+    
+            .center{
+                font-size: 12px;
+                cursor: pointer;
+                letter-spacing: 2px;
+            }
+            .right{
+                display: block;
+                position: absolute;
+                top: 7%;
+                right: 0;
+                width: 50%;
+                height: 40vh;
+                background: rgba(0, 0, 0, .1);
+                backdrop-filter: blur(50px);
+                color: #ffffff;
+                z-index: 999;
+
+                .linkPages{
+                    display: block;
+                    gap: 25;
+                    margin: 10px 10px;
+
+                    .item{
+                        margin-top: 10px;
+                    }
+                    
+                }
+
+            }
+            .mobileMenu{
+                display: block;
+
+                .close{
+                    display: none;
+                }
+            }
+        }
+    }
 }
