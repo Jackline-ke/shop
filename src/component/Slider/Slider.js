@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 import './Slider.scss'
 
 const Slider = () => {
@@ -24,7 +24,7 @@ const Slider = () => {
                 <h2 className=''>Get the latest and quality pieces</h2>
                 <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <button>
-                    <Link className='link'>Shop Now</Link>
+                    <Link to='feature' smooth={true} duration={2000} className='link'>Shop Now</Link>
                 </button>
             </div>
         </div>

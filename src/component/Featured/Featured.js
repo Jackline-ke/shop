@@ -53,7 +53,7 @@ const Featured = ({type}) => {
   ]
 
   return (
-    <div className='featured'>
+    <div id='feature' className='featured'>
         <div className='top'>
           <h2 className=''>{type} Products</h2>
         </div>
