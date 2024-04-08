@@ -17,7 +17,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className='wrapper'>
         <div className='center'>
-          <Link className="link" to='/'>Qlynns' Shopping Center</Link>
+          <Link className="link" to='/'>Shopping Center</Link>
         </div>
         
         <div className='right'>
