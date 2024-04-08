@@ -15,9 +15,6 @@
         flex-direction: column;
         gap: 10px;
     }
-    // .column-large{
-    //     flex: 2;
-    // }
     .row{
         flex: 1;
         display: flex;
@@ -53,7 +50,7 @@
 
 @media screen and (max-width: 600px){
     .category{
-        margin-bottom: 150px;
+        margin-bottom: 100px;
         height: 40vh;
         display: flex;
         flex-direction: column;

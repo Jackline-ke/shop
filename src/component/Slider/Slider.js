@@ -22,7 +22,7 @@ const Slider = () => {
             <div className='left'>
                 <h1 className=''>Best Collection</h1>
                 <h2 className=''>Get the latest and quality pieces</h2>
-                <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p className=''>Explore our curated selection of the most stylish and elegant women's fashion items, carefully chosen to keep you ahead of the trends. Whether you're looking for chic dresses, sophisticated accessories, or statement pieces, we have everything you need to elevate your wardrobe.</p>
                 <button>
                     <Link to='feature' smooth={true} duration={2000} className='link'>Shop Now</Link>
                 </button>
